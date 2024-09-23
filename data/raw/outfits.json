@@ -1,0 +1,243 @@
+[
+    {
+      "outfit_id": "o1",
+      "user_id": "u1",
+      "items": [
+        {
+          "item_id": "i1",
+          "category": "top",
+          "colors": ["red"],
+          "materials": ["cotton"],
+          "pattern": "solid",
+          "fit": "regular",
+          "item_type": "t-shirt"
+        },
+        {
+          "item_id": "i2",
+          "category": "bottom",
+          "colors": ["blue"],
+          "materials": ["denim"],
+          "pattern": "solid",
+          "fit": "slim",
+          "item_type": "jeans"
+        }
+      ]
+    },
+    {
+      "outfit_id": "o2",
+      "user_id": "u2",
+      "items": [
+        {
+          "item_id": "i3",
+          "category": "top",
+          "colors": ["white"],
+          "materials": ["linen"],
+          "pattern": "striped",
+          "fit": "loose",
+          "item_type": "shirt"
+        },
+        {
+          "item_id": "i4",
+          "category": "bottom",
+          "colors": ["black"],
+          "materials": ["polyester"],
+          "pattern": "solid",
+          "fit": "regular",
+          "item_type": "trousers"
+        }
+      ]
+    },
+    {
+      "outfit_id": "o3",
+      "user_id": "u3",
+      "items": [
+        {
+          "item_id": "i5",
+          "category": "top",
+          "colors": ["green"],
+          "materials": ["wool"],
+          "pattern": "checked",
+          "fit": "oversized",
+          "item_type": "sweater"
+        },
+        {
+          "item_id": "i6",
+          "category": "bottom",
+          "colors": ["brown"],
+          "materials": ["corduroy"],
+          "pattern": "plain",
+          "fit": "regular",
+          "item_type": "pants"
+        }
+      ]
+    },
+    {
+      "outfit_id": "o4",
+      "user_id": "u4",
+      "items": [
+        {
+          "item_id": "i7",
+          "category": "top",
+          "colors": ["black"],
+          "materials": ["silk"],
+          "pattern": "floral",
+          "fit": "regular",
+          "item_type": "blouse"
+        },
+        {
+          "item_id": "i8",
+          "category": "bottom",
+          "colors": ["white"],
+          "materials": ["linen"],
+          "pattern": "striped",
+          "fit": "slim",
+          "item_type": "skirt"
+        }
+      ]
+    },
+    {
+      "outfit_id": "o5",
+      "user_id": "u5",
+      "items": [
+        {
+          "item_id": "i9",
+          "category": "top",
+          "colors": ["yellow"],
+          "materials": ["cotton"],
+          "pattern": "solid",
+          "fit": "slim",
+          "item_type": "polo shirt"
+        },
+        {
+          "item_id": "i10",
+          "category": "bottom",
+          "colors": ["khaki"],
+          "materials": ["cotton"],
+          "pattern": "plain",
+          "fit": "regular",
+          "item_type": "chinos"
+        }
+      ]
+    },
+    {
+      "outfit_id": "o6",
+      "user_id": "u6",
+      "items": [
+        {
+          "item_id": "i11",
+          "category": "dress",
+          "colors": ["navy blue"],
+          "materials": ["polyester"],
+          "pattern": "plain",
+          "fit": "fitted",
+          "item_type": "dress"
+        },
+        {
+          "item_id": "i12",
+          "category": "accessory",
+          "colors": ["gold"],
+          "materials": ["metal"],
+          "pattern": "plain",
+          "fit": "adjustable",
+          "item_type": "bracelet"
+        }
+      ]
+    },
+    {
+      "outfit_id": "o7",
+      "user_id": "u7",
+      "items": [
+        {
+          "item_id": "i13",
+          "category": "outerwear",
+          "colors": ["gray"],
+          "materials": ["wool"],
+          "pattern": "plain",
+          "fit": "oversized",
+          "item_type": "coat"
+        },
+        {
+          "item_id": "i14",
+          "category": "footwear",
+          "colors": ["brown"],
+          "materials": ["leather"],
+          "pattern": "plain",
+          "fit": "regular",
+          "item_type": "boots"
+        }
+      ]
+    },
+    {
+      "outfit_id": "o8",
+      "user_id": "u8",
+      "items": [
+        {
+          "item_id": "i15",
+          "category": "top",
+          "colors": ["purple"],
+          "materials": ["cotton"],
+          "pattern": "solid",
+          "fit": "slim",
+          "item_type": "t-shirt"
+        },
+        {
+          "item_id": "i16",
+          "category": "bottom",
+          "colors": ["blue"],
+          "materials": ["denim"],
+          "pattern": "solid",
+          "fit": "regular",
+          "item_type": "jeans"
+        }
+      ]
+    },
+    {
+      "outfit_id": "o9",
+      "user_id": "u9",
+      "items": [
+        {
+          "item_id": "i17",
+          "category": "top",
+          "colors": ["orange"],
+          "materials": ["cotton"],
+          "pattern": "graphic",
+          "fit": "regular",
+          "item_type": "hoodie"
+        },
+        {
+          "item_id": "i18",
+          "category": "bottom",
+          "colors": ["black"],
+          "materials": ["polyester"],
+          "pattern": "plain",
+          "fit": "slim",
+          "item_type": "joggers"
+        }
+      ]
+    },
+    {
+      "outfit_id": "o10",
+      "user_id": "u10",
+      "items": [
+        {
+          "item_id": "i19",
+          "category": "outerwear",
+          "colors": ["navy blue"],
+          "materials": ["leather"],
+          "pattern": "solid",
+          "fit": "slim",
+          "item_type": "jacket"
+        },
+        {
+          "item_id": "i20",
+          "category": "footwear",
+          "colors": ["black"],
+          "materials": ["suede"],
+          "pattern": "plain",
+          "fit": "regular",
+          "item_type": "sneakers"
+        }
+      ]
+    }
+  ]
+  

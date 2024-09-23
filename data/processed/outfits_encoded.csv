@@ -1,0 +1,10 @@
+outfit_id,item_id,colors_beige,colors_black,colors_brown,colors_dark gray,colors_gold,colors_navy blue,colors_red,colors_white,materials_cotton,materials_denim,materials_leather,materials_linen,materials_metal,materials_polyester,materials_wool,pattern_checked,pattern_plain,pattern_solid,pattern_striped,fit_adjustable,fit_regular,fit_slim,category_accessories,category_clothing,category_footwear,item_type_item001,item_type_item002,item_type_item003,item_type_item004,item_type_item005,item_type_item006,item_type_item007,item_type_item008,item_type_item009,cluster
+001,item001,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,False,False,False,True,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,2
+001,item002,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,1
+001,item003,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,False,True,False,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,1
+002,item004,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,False,False,True,False,False,True,False,False,True,False,False,False,False,True,False,False,False,False,False,0
+002,item005,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,False,True,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,1
+002,item006,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,True,False,False,False,1
+003,item007,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,True,False,False,1
+003,item008,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,True,False,1
+003,item009,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,1

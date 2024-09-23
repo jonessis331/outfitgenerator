@@ -1,0 +1,34 @@
+category_accessories
+category_clothing
+category_footwear
+colors_beige
+colors_black
+colors_brown
+colors_dark gray
+colors_gold
+colors_navy blue
+colors_red
+colors_white
+fit_adjustable
+fit_regular
+fit_slim
+item_type_item001
+item_type_item002
+item_type_item003
+item_type_item004
+item_type_item005
+item_type_item006
+item_type_item007
+item_type_item008
+item_type_item009
+materials_cotton
+materials_denim
+materials_leather
+materials_linen
+materials_metal
+materials_polyester
+materials_wool
+pattern_checked
+pattern_plain
+pattern_solid
+pattern_striped

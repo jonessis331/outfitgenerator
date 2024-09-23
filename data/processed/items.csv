@@ -1,0 +1,21 @@
+outfit_id,item_id,category,colors,materials,pattern,fit,item_type
+o1,i1,top,['red'],['cotton'],solid,regular,i1
+o1,i2,bottom,['blue'],['denim'],solid,slim,i2
+o2,i3,top,['white'],['linen'],striped,loose,i3
+o2,i4,bottom,['black'],['polyester'],solid,regular,i4
+o3,i5,top,['green'],['wool'],checked,oversized,i5
+o3,i6,bottom,['brown'],['corduroy'],plain,regular,i6
+o4,i7,top,['black'],['silk'],floral,regular,i7
+o4,i8,bottom,['white'],['linen'],striped,slim,i8
+o5,i9,top,['yellow'],['cotton'],solid,slim,i9
+o5,i10,bottom,['khaki'],['cotton'],plain,regular,i10
+o6,i11,dress,['navy blue'],['polyester'],plain,fitted,i11
+o6,i12,accessory,['gold'],['metal'],plain,adjustable,i12
+o7,i13,outerwear,['gray'],['wool'],plain,oversized,i13
+o7,i14,footwear,['brown'],['leather'],plain,regular,i14
+o8,i15,top,['purple'],['cotton'],solid,slim,i15
+o8,i16,bottom,['blue'],['denim'],solid,regular,i16
+o9,i17,top,['orange'],['cotton'],graphic,regular,i17
+o9,i18,bottom,['black'],['polyester'],plain,slim,i18
+o10,i19,outerwear,['navy blue'],['leather'],solid,slim,i19
+o10,i20,footwear,['black'],['suede'],plain,regular,i20
