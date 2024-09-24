@@ -42,7 +42,9 @@ model.eval()
 item_df = pd.read_csv(ITEM_DATA_PATH)
 
 @app.route('/recommend', methods=['POST'])
-def recommend():
+def recommend(data=None):
+    if data is None:
+        data = request.get_json()
     data = request.get_json()
     user_id = data['user_id']
     item_ids = data['item_ids']  # Items the user wants to include

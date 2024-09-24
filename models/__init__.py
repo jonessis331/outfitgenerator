@@ -2,7 +2,7 @@
 
 from .base_model import BaseModel
 from .kmeans_model import KMeansModel
-# Import other models as you add them
-# from .your_new_model import YourNewModel
+from .embeddings import EmbeddingLayer
+from .siamese_network import SiameseNetwork
 
-__all__ = ['BaseModel', 'KMeansModel']
+__all__ = ['BaseModel', 'KMeansModel', 'EmbeddingLayer', 'SiameseNetwork']

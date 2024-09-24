@@ -12,6 +12,7 @@ from utils.config import *
 from utils.logger import get_logger
 import pandas as pd
 import random
+import matplotlib.pyplot as plt
 
 logger = get_logger(__name__)
 
@@ -71,6 +72,7 @@ def train_model():
     # Loss and optimizer
     criterion = torch.nn.BCEWithLogitsLoss()
     optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
+    train_losses = []
 
     # Training loop
     logger.info("Starting training loop...")
@@ -97,11 +99,13 @@ def train_model():
             total_loss += loss.item()
 
         avg_loss = total_loss / len(dataloader)
+        train_losses.append(avg_loss)
         logger.info(f"Epoch {epoch+1}/{NUM_EPOCHS}, Loss: {avg_loss:.4f}")
 
     # Save model
     logger.info("Saving model...")
     torch.save(model.state_dict(), MODEL_SAVE_PATH)
+    torch.save(train_losses, 'visualization/train_losses.pt')
     encoder.save_encoders(ENCODERS_PATH)
     logger.info("Training completed successfully.")
 
