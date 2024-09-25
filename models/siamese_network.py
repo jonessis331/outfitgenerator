@@ -6,12 +6,13 @@ import torch.nn.functional as F
 
 
 class SiameseNetwork(nn.Module):
-    def __init__(self, embedding_layer, embedding_dim):
+    def __init__(self, embedding_layer, embedding_dim, dropout_rate=0.5):
         super(SiameseNetwork, self).__init__()
         self.embedding_layer = embedding_layer
         self.fc = nn.Sequential(
             nn.Linear(embedding_dim * 2, 128),
             nn.ReLU(),
+            nn.Dropout(p=dropout_rate), #added a new parameter dropout_rate ^^
             nn.Linear(128, 1)
         )
 

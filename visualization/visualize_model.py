@@ -1,4 +1,7 @@
 # visualization/visualize_model.py
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import torch
 from torchviz import make_dot
@@ -6,7 +9,7 @@ from models.embeddings import EmbeddingLayer
 from models.siamese_network import SiameseNetwork
 from preprocess.encoder import Encoder
 from utils.config import *
-import os
+
 
 def visualize_model():
     # Load encoders

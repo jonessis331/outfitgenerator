@@ -2,9 +2,7 @@
 
 import sys
 import os
-
-# Add the parent directory of outfitgenerator to the Python path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import torch
 from sklearn.decomposition import PCA

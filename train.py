@@ -71,7 +71,7 @@ def train_model():
 
     # Loss and optimizer
     criterion = torch.nn.BCEWithLogitsLoss()
-    optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
+    optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
     train_losses = []
 
     # Training loop
