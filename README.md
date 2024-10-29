@@ -85,17 +85,11 @@
     <p>Python 3.6 or higher and pip (Python package installer).</p>
     
     <h3>Clone the Repository</h3>
-    <pre>
-git clone https://github.com/your_username/outfit-recommendation-system.git
-cd outfit-recommendation-system
-    </pre>
-
-    <h3>Install Dependencies</h3>
-    <p>You can install the required packages using pip:</p>
-    <pre>pip install -r requirements.txt</pre>
     
-    <p>Alternatively, if you have setup.py, you can install the package:</p>
-    <pre>python setup.py install</pre>
+    pip install -r requirements.txt
+    
+    Alternatively, if you have setup.py, you can install the package:
+    python setup.py install
 </section>
 
 <section id="data-preparation">
